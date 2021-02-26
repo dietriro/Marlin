@@ -91,7 +91,7 @@
 //#define SHOW_CUSTOM_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
-//#define CUSTOM_STATUS_SCREEN_IMAGE
+#define CUSTOM_STATUS_SCREEN_IMAGE
 
 // @section machine
 
@@ -1812,7 +1812,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-//#define SPEAKER
+// #define SPEAKER
 
 //
 // The duration and frequency for the UI feedback sound.
@@ -1821,8 +1821,8 @@
 // Note: Test audio output with the G-Code:
 //  M300 S<frequency Hz> P<duration ms>
 //
-//#define LCD_FEEDBACK_FREQUENCY_DURATION_MS 2
-//#define LCD_FEEDBACK_FREQUENCY_HZ 5000
+// #define LCD_FEEDBACK_FREQUENCY_DURATION_MS 40
+// #define LCD_FEEDBACK_FREQUENCY_HZ 200
 
 //=============================================================================
 //======================== LCD / Controller Selection =========================
